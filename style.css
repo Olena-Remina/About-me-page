@@ -81,3 +81,27 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+
+@media(max-width:667px){
+  h1{
+    font-size: 48px;
+    line-height: 1.5;
+  }
+  h2{
+    font-size: 32px;
+  }
+  h2, p{
+    text-align: center;
+  }
+  p{
+    margin:0 auto;
+  }
+  .project-link{
+    display: block;
+    text-align: center;
+    margin: 0 60px;
+  }
+  .project-picture{
+    display: none;
+  }
+}
