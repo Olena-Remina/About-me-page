@@ -1,3 +1,4 @@
+
 :root {
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
@@ -16,20 +17,35 @@ h3 {
 
 h1 {
   font-size: 96px;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 36px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
 }
 
 h3 {
   font-size: 24px;
   opacity: 0.7;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+h4{
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 64px;
 }
 
 p {
   font-size: 18px;
   line-height: 1.5;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
 }
 
 .navigation-links {
@@ -40,6 +56,8 @@ p {
 
 .navigation-links a {
   margin: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
 }
 
 .primary-link {
@@ -105,3 +123,4 @@ p {
     display: none;
   }
 }
+
