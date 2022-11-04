@@ -68,6 +68,11 @@ p {
   box-shadow: var(--box-shadow);
 }
 
+.btn-branding:hover {
+  color: #212529;
+  border: solid 1px var(--branding-color);
+}
+
 .navigation-links {
   display: flex;
   margin-top: 40px;
