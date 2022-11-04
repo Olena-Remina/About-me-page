@@ -40,9 +40,13 @@ h3 {
 }
 
 h4{
-  font-family: 'Playfair Display', serif;
-  font-weight: bold;
   font-size: 64px;
+}
+
+h5{
+  font-family: var(--default-font-family); 
+  font-size: 20px;
+  font-weight: 400;
 }
 
 p {
@@ -133,7 +137,7 @@ p {
   h2{
     font-size: 32px;
   }
-  h2, p{
+  h2, h4, p{
     text-align: center;
   }
   p{
