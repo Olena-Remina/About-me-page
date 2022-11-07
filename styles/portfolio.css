@@ -21,17 +21,6 @@ h6 {
   font-weight: bold;
 }
 
-h1 {
-  font-size: 96px;
-}
-
-h2 {
-  font-size: 36px;
-  margin: 0;
-  color: #272142;
-  font-family: var(--default-font-family);
-}
-
 h3 {
   font-size: 24px;
   opacity: 0.9;
@@ -49,12 +38,8 @@ h5{
   font-weight: 400;
 }
 
-p {
-  font-size: 18px;
-  line-height: 1.5;
-  font-family: 'Poppins', sans-serif;
+p{
   font-weight: 400;
-  font-size: 18px;
   opacity: 90%;
 }
 
@@ -63,6 +48,23 @@ p {
   text-align: center;
   padding: 160px 20px;
 }
+
+.hero h1 {
+  font-size: 96px;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin: 0;
+  color: #272142;
+  font-family: var(--default-font-family);
+}
+
+.hero p {
+  font-size: 18px;
+  line-height: 1.5;
+} 
+
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
@@ -91,35 +93,42 @@ p {
   border:solid 1px var(--branding-color);
 }
 
-.about-paragraphs {
-  margin: 30px 0;
+.about-section {
+  padding: 160px 20px;
 }
 
-.about-paragraphs p {
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.about-section p {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.about-section-content{
   margin: 10px;
-  padding: 0;
 }
 
-.email-link {
-  display: flex;
-  justify-content: center;
-  color: var(--branding-color);
-  font-size: 28px;
-  text-decoration: none;
-}
-
-.email-link:hover {
-  text-decoration: underline;
+.profile-picture {
+  border-radius: 10px;
 }
 
 @media(max-width:991px){
   .hero {
     padding: 70px 20px;}
-  h1{
+  
+    .hero h1{
     font-size: 48px;
     line-height: 1.5;
   }
-  h2{
+    .hero h2{
     font-size: 32px;
   }
   h4{
@@ -129,17 +138,27 @@ p {
   h5{
     font-size: 18px;
   }
-  p{
+  .project-description p{
     margin:0 auto;
   }
 
   .project-description{
     text-align: center;
   }
+
 }
 
 @media(min-width:1400px){
   .project-description{
     padding: 120px 60px;
   }
+}
+
+@media(max-width:1399px){
+  .about-section {
+    text-align: center;
+    padding: 0;
+    margin: 40px;
+  }
+
 }
