@@ -55,6 +55,7 @@ p {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 18px;
+  opacity: 90%;
 }
 
 .hero {
@@ -73,39 +74,21 @@ p {
 }
 
 .btn-branding:hover {
-  color: #212529;
   border: solid 1px var(--branding-color);
 }
 
-.navigation-links {
-  display: flex;
-  margin-top: 40px;
-  justify-content: center;
-}
-
-.navigation-links a {
-  margin: 20px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
-}
-
-.primary-link {
-  background: var(--branding-color);
+.btn-branding-projects {
+  border:solid 1px var(--branding-color);
+  border-radius: 4px;
+  color:var(--branding-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
   box-shadow: var(--box-shadow);
-  color: white;
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
 }
-
-.secondary-link {
-  color: var(--branding-color);
-  border: 1px solid var(--branding-color);
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
+ 
+.btn-branding-projects:hover {
+  border:solid 1px var(--branding-color);
 }
 
 .about-paragraphs {
@@ -142,22 +125,21 @@ p {
   h4{
     font-size: 40px;
   }
-  h4, p{
-    text-align: center;
-  }
+ 
   h5{
     font-size: 18px;
   }
   p{
     margin:0 auto;
   }
-  .project-link{
-    display: block;
+
+  .project-description{
     text-align: center;
-    margin: 0 60px;
-  }
-  .project-picture{
-    display: none;
   }
 }
 
+@media(min-width:1400px){
+  .project-description{
+    padding: 120px 60px;
+  }
+}
