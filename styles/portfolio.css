@@ -130,6 +130,8 @@ p {
 }
 
 @media(max-width:991px){
+  .hero {
+    padding: 70px 20px;}
   h1{
     font-size: 48px;
     line-height: 1.5;
@@ -137,8 +139,14 @@ p {
   h2{
     font-size: 32px;
   }
+  h4{
+    font-size: 40px;
+  }
   h4, p{
     text-align: center;
+  }
+  h5{
+    font-size: 18px;
   }
   p{
     margin:0 auto;
