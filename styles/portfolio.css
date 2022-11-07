@@ -129,7 +129,7 @@ p {
   text-decoration: underline;
 }
 
-@media(max-width:667px){
+@media(max-width:767px){
   h1{
     font-size: 48px;
     line-height: 1.5;
@@ -137,7 +137,7 @@ p {
   h2{
     font-size: 32px;
   }
-  h2, h4, p{
+  h4, p{
     text-align: center;
   }
   p{
