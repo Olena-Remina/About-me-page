@@ -21,13 +21,6 @@ h6 {
   font-weight: bold;
 }
 
-h3 {
-  font-size: 24px;
-  opacity: 0.9;
-  font-weight: 400;
-  line-height: 2;
-}
-
 h4{
   font-size: 64px;
 }
@@ -58,6 +51,13 @@ p{
   margin: 0;
   color: #272142;
   font-family: var(--default-font-family);
+}
+
+.hero h3 {
+  font-size: 24px;
+  opacity: 0.9;
+  font-weight: 400;
+  line-height: 2;
 }
 
 .hero p {
@@ -107,6 +107,12 @@ p{
   font-family: var(--default-font-family);
 }
 
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: var(--default-font-family);
+} 
+
 .content p {
   font-size: 16px;
   line-height: 30px;
@@ -145,7 +151,6 @@ p{
   .project-description{
     text-align: center;
   }
-
 }
 
 @media(min-width:1400px){
@@ -162,10 +167,10 @@ p{
   }
   .content{
     text-align: center;
-    margin: 0 auto;
+    padding: 0;
   }
   .content h1 {
-    font-size: 54px;
-    line-height: 70px;
+    font-size: 44px;
+    line-height: 60px;
   }
 }
