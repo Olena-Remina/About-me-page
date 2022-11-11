@@ -94,7 +94,7 @@ p{
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 120px 20px;
 }
 
 .content h1 {
@@ -126,9 +126,24 @@ p{
   border-radius: 30px;
 }
 
+.logo{
+  height: 40px;
+}
+
+.active{
+  color:var(--branding-color)!important;
+}
+
+.navbar-nav{
+margin-left:auto !important;
+}
+
+.nav-item{
+  padding: 4px 10px 0 10px;
+}
 @media(max-width:991px){
   .hero {
-    padding: 70px 20px;}
+    padding: 120px 20px 60px 20px;}
   
     .hero h1{
     font-size: 48px;
@@ -172,5 +187,8 @@ p{
   .content h1 {
     font-size: 44px;
     line-height: 60px;
+  }
+  .logo{
+    height: 28px;
   }
 }
